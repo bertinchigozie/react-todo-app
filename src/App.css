@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(122, 2, 86, 0.719);
+  min-height: 20vh;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.todo__form {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+form input,
+form button,
+form select {
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  margin: 0.1rem;
+}
+
+button:hover {
+  transition: all 0.4s ease;
+  background-color: rgba(184, 48, 143, 0.342);
+  color: white;
+}
+
+.todo__list {
+  border: none;
+  padding: 1rem;
+  background-color: rgba(90, 33, 73, 0.342);
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 40%;
+}
+
+li {
+  padding: 0.8rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  color: black;
+  flex: 1;
+  display: flex;
+  background-color: white;
+}
+ul > button {
+  margin: 0.1rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgba(245, 127, 127, 0.8);
+  background-color: beige;
+}
